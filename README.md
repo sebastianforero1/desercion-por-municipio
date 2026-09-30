@@ -40,6 +40,6 @@ streamlit run app.py
 5. Copia la URL pública generada y regístrala en el documento de entrega del proyecto, junto con un pantallazo de la app funcionando.
 
 ## Notas
-
+- Este proyecto ya se encuentra desplegado en Streamlit con el siguiente enlace [deserción por municipio](https://desercion-por-municipio.streamlit.app/)
 - El modelo explica ≈32% de la variabilidad de la tasa de deserción (R²=0.321). Es una herramienta exploratoria para priorizar ETC de riesgo relativo, no una predicción precisa: factores socioeconómicos, de conflicto y de infraestructura no incluidos en este dataset también influyen fuertemente en la deserción escolar.
 - Cualquier reentrenamiento del modelo debe regenerar `modelo_final_ridge.pkl` desde el notebook de Colab y reemplazarlo en este repositorio.
